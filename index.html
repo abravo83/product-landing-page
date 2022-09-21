@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" value="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        id="header-img" 
+        src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Stihl_Logo.svg/1200px-Stihl_Logo.svg.png" 
+        width="200"
+      />
+      <nav id="nav-bar">
+        <i class="nav-i"><a class="nav-link" href="#description">Description</a></i>
+        <i class="nav-i"><a class="nav-link" href="#technical-details">Technical Details</a></i>
+        <i class="nav-i"><a class="nav-link" href="#ordering">Ordering</a></i>
+      </nav>
+    </header>
+    <main>
+      <h1 id="product-title">BGA 200 Electric Leaf Blower</h1>
+      <p id="subtitle">STIHL'S MOST POWERFUL BATTERY BLOWER</p>
+      <div id="description">
+        <h2>Description and features:</h2>
+        <ul>
+          <li>Quiet and pleasant operation for professional use in the city center and in noise sensitive environments.</li>
+          <li> Its innovative design is ideal for working in narrow and inaccessible spaces.</li>
+          <li>For large surfaces or long hours of work, the BGA 200 can be easily attached to the specially designed ErgoStand for increased comfort. You can switch between hand-carrying and cradle-carrying very quickly as needed. This makes the BGA 200 a 2-in-1 machine.</li>
+          <li>The curved design of the BGA 200 ensures that the blower does not bend or tilt despite strong airflow, thus relieving strain on the user's wrist.</li>
+          <li>The second handle and actuation lock provide additional comfort.</li>
+          <li> With the push of a button, the length of the blow tube can be easily adjusted to suit different cleaning situations, such as corner areas.</li>
+          <li>The comfortable standard ErgoBracket attaches to the hip harness of AR L backpack batteries</li>
+          <li>High-efficiency, virtually wear-free electric motor</li>
+        </ul>
+        <div class="video-show">
+          <iframe id="video" src="https://www.youtube.com/embed/CmwNKZPw0dA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div id="technical-details">
+        <h2>Technical Details</h2>
+        <table id="technical-table">
+          <tr>
+            <td>Blowing force</td><td>21Nw</td>
+          </tr>
+          <tr>
+            <td>Rated voltage</td><td>36V</td>
+          </tr>
+          <tr>
+            <td>Sound Level</td><td>80dB(A)</td>
+          </tr>
+          <tr>
+            <td>Sound Power</td><td>91dB(A)</td>
+          </tr>
+          <tr>
+            <td>Weight</td><td>3.2kg</td>
+          </tr>
+        </table>
+      </div>
+      <div id="ordering">
+        <h2>Ordering</h2>
+        <div id="ordering-container">
+
+          <div class="order-pack" id="pack-1">
+            <h3>BARE PACK</h3>
+            <p>Blower without battery or charger</p>
+            <p class="pack-price">197~</p>
+          </div>
+          <div class="order-pack" id="pack-2">
+            <h3>VALUE PACK</h3>
+            <p>Blower, battery and charger</p>
+            <p class="pack-price">269~</p>
+          </div>
+          <div class="order-pack" id="pack-3">
+            <h3>PRO PACK</h3>
+            <p>Blower, Backpack battery and charger</p>
+            <p class="pack-price">612~</p>
+          </div>
+        </div>
+        <form id="form" class="order-form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" name="email" placeholder="your@email.com" required/>
+          <br />
+          <input id="submit" type="submit" value="Submit" />
+        </form>
+      </div>
+    </main>
+    <footer id="footer">Project for  freeCodeCamp. Code in <a href="https://github.com/abravo83/product-landing-page">GitHub</a> with MIT license.</footer>
+  </body>
+</html>
