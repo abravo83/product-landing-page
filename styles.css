@@ -1,0 +1,183 @@
+/** {
+  border: 1px solid black;
+}*/
+
+html {
+  padding: 10px;
+  font-family: arial, tahoma, sans-serif;
+}
+
+img {
+  background-color: white;
+}
+
+#header{
+  display: flex;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: white;
+}
+
+nav{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 3%;
+  text-decoration: none;
+  font-weight: bold;
+  color: grey;
+  white-space: nowrap;
+}
+
+main{
+  margin-top: 100px;
+}
+
+#description{
+  padding-top: 40px;
+}
+
+#product-title{
+  font-family: verdana, sans-serif;
+  font-size: 2.5rem;
+}
+
+#subtitle{
+  font-family: tahoma;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.video-show{
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+#video-embeded{
+  width: 80%;
+  height: 40vw;  
+}
+
+#technical-details{
+  padding-top: 40px;
+}
+
+#technical-table{
+  font-size: 1.2rem;
+  margin: 2rem auto;
+  border-spacing: 0;
+  border: 1px solid black;
+  text-align: left;
+}
+
+#technical-table td{
+  width: 100px;
+  padding-left: 30px;
+}
+
+
+tr:nth-child(even){
+  background-color: lightgrey;
+}
+
+#ordering{
+  padding-top: 40px;
+}
+
+#ordering-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+
+}
+.order-pack{
+  width: 175px;
+  height: 175px;
+  margin: 3rem auto 0;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: orange;
+}
+
+.order-pack h3{
+  font-family: arial, sans-serif;
+  color: white;
+}
+
+.order-pack p{
+  font-family: tahoma, sans-serif;
+  font-size: 1.2rem;
+}
+
+.pack-price{
+  font-weight: bold;
+  color: yellow;
+  font-size: 1.2rem;
+}
+
+.order-form {
+  text-align: center;
+  margin: 2rem;
+}
+
+#email, #submit{
+  font-size: 1.2rem;
+  margin: 1rem;
+}
+
+#email{
+  padding-left: 40px;
+}
+
+
+footer{
+  text-align: center;
+  margin-top: 150px;
+}
+
+@media screen and (min-width: 700px){
+
+  #technical-table{
+    font-size: 1.5rem;
+  }
+  #technical-table td{
+    width: 200px;
+    height: 100px;
+    padding-left: 30px;
+  }
+
+  .order-pack{
+    width: 250px;
+    height: 250px;
+  
+  }
+  .order-pack h3{
+    font-size: 2rem;
+  }
+
+  .order-pack p{
+    font-size: 1.5rem;
+  }
+
+  .pack-price{
+    font-size: 1.4rem;
+  }
+
+  .order-form {
+    margin: 4rem;
+  }
+
+  #email, #submit{
+    font-size: 1.5rem;
+  }
+
+}
